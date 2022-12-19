@@ -11,7 +11,14 @@
 
 <body>
 
+<?php
 
+include_once __DIR__ . '/assets/db/User.php';
+
+// $result = User::all();
+var_dump(User::all());
+
+?>
 
 <script src="../edusogno-esercizio/assets/js/script.js"></script>
 </body>

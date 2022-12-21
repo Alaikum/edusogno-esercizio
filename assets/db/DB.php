@@ -24,10 +24,10 @@ class DB
         $result = $conn->query($sql);
         if ($result) {
             //migrazione già lanciata
-            echo ('Già Migrato');
+            // echo ('Già Migrato'); 
         } else {
             //migrazione da lanciare
-            echo ('Prima Migrazione');
+            // echo ('Prima Migrazione');
             $query = '';
             $sqlScript = file($path); //il file lo salva come un array di righe
             $i = 1;
